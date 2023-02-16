@@ -24,10 +24,17 @@ namespace Project_GitHub
         {
             InitializeComponent();
         }
+        private int count = 0;
 
         private void btnText_Click(object sender, RoutedEventArgs e)
         {
             lblHello.Content = "Hello World";
+        }
+
+        private void btnCount_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+            lblCount.Content = count.ToString();
         }
     }
 }
