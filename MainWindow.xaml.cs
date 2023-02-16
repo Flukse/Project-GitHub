@@ -24,5 +24,10 @@ namespace Project_GitHub
         {
             InitializeComponent();
         }
+
+        private void btnText_Click(object sender, RoutedEventArgs e)
+        {
+            lblHello.Content = "Hello World";
+        }
     }
 }
